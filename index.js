@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const resolvers = require('./graphql/resolvers')
 const typeDefs = require("./graphql/typeDefs")
 const { MONGODB } = require("./config.js");
-mongoose.set("useUnifiedTopology", true);
+// mongoose.set("useUnifiedTopology", true);
 
 const pubsub = new PubSub() 
 
